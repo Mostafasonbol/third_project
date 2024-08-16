@@ -1,0 +1,69 @@
+:root {
+  --pink: #fd7792;
+  --gray: #4d4d4d;
+  --gray-light: #f3f4f7;
+  --black: black;
+  --white: white;
+  --pink-light: pink;
+}
+/* navbar */
+.navbar-brand:hover{
+    color: var(--black);
+}
+.nav-item .nav-link:hover{
+    color: var(--pink);
+}
+.text-pink{
+    color: var(--pink);
+}
+.text-gray{
+    color: var(--gray);
+}
+.text-black{
+    color: var(--black);
+} 
+
+
+.hero{
+    background-image: url(../image/bg_1.jpg.webp);
+}
+.hero .container .row{
+    min-height: 100vh;
+}
+.text-white{
+    color: var(--white);
+}
+.bg-pink{
+    background-color: var(--pink);
+}
+.bg-white{
+    background-color: var(--white);
+}
+.bg-gray-light{
+    background-color: var(--gray-light);
+}
+.bg-pink-light{
+    background-color: var(--pink-light);
+}
+.bg-black{
+    background-color: #272727;
+}
+.last a:hover{
+    color: var(--pink);
+}
+.last p a:hover{
+    color: var(--gray);
+}
+.last button{
+    color: var(--white);
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.last button:hover{
+    border-color: var(--black);
+}
+.card:hover{
+    transform: translate(0,-8px);
+    transition: 0.5s ease;
+}
